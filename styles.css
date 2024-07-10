@@ -5,51 +5,89 @@ body {
 }
 
 .hero {
-    
+
     color: white;
     padding: 150px 300px;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px auto 40px auto;
-    
+    margin: 0px auto;
+
 
     background-image: url(images/hlavak.jpg);
     background-position: 10% 40%;
     background-size: cover;
-    
+
 }
 
-#hero-title  {
+#hero-title {
     padding: 20px 30px;
     background: #1D3557;
     font-size: 44px;
     font-weight: 700px;
 }
+
 #hero-subtitle {
     padding: 15px 20px;
     background: #457B9D;
 }
 
-img {
-    width: 300px;
+.activity-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.activities {
+    background: #F1FAEE;
+    padding: 40px 0px;
 }
 
 #activity-title {
     display: block;
     color: #1D3557;
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .example {
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-evenly;
+
 }
 
 .activity {
-    margin: ;
+    background-color: rgba(0, 0, blue, 0.4);
+
+    width: 250px;
+    padding: 0px 20px;
 }
 
+
+/* CARD SECTION */
+
+.card-section {
+    padding: 10px;
+
+}
+
+.card {
+    margin: 100px auto;
+    padding: 20px 10px;
+    background-color: #A8DADC;
+    width: 600px;
+    height: auto;
+    border-bottom: 7px solid #1D3557;
+    border-radius: 2%;
+
+    /* Stuff inside */
+    display: flex;
+
+
+}
+
+.card-img {
+    width: 250px;
+    margin: 0px 15px;
+}
